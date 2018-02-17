@@ -34,9 +34,9 @@ LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and R
 4. `node liri.js do-what-it-says`
    * Using the `fs` Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
      * It should run `spotify-this-song` for "I Want it That Way," as follows the text in `random.txt`.
+	 
+**Each command is logged into a `log.txt` file.**
      
-__Each command is logged into a `log.txt` file. __
-
 
 
 
